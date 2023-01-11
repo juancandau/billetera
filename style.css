@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background: url(billeg.jpg);
+    background-color: rgb(50, 100, 100);
+    background-blend-mode: soft-light;
+}
+
+header{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2.5rem;
+    
+}
+input{
+    border-radius: 0.5rem;
+    background-color: rgba(188, 214, 70, 0.6)
+}
+
+header:hover{
+    color: brown;
+}
+
+
+.hero{
+   
+   display: flex;
+   flex-direction: column;
+   align-content: center;
+   justify-content: space-around;
+   align-items: center;
+   margin: 1rem;
+   background-color: rgb(135, 167, 135, 0.3)
+   
+}
+
+.gastos{
+    display: flex;
+   flex-direction: column;
+   align-content: center;
+   justify-content: space-around;
+   align-items: center;
+   margin: 1rem;
+   background-color: rgb(135, 167, 135, 0.3)
+
+}
+
+.dispo{
+    margin: 3rem;
+}
+.gastoymonto{
+    margin: 3rem;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    margin: 5rem;
+    background-color: rgb(135, 167, 135, 0.3)
+}
